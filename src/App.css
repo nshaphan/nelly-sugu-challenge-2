@@ -1,38 +1,98 @@
-.App {
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgba(249,250,251,1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  background: #f3f3f4;
+  color: #0d0c22;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  transition: color 200ms ease;
+  transition: background-color 200ms ease;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 40px;
+  box-sizing: border-box;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn:hover {
+  text-decoration: none;
+  color: rgb(5, 150, 105);
+  background-color: rgb(209, 250, 229);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card {
+  border-radius: .75rem;
+  box-shadow: rgb(0 0 0 / 5%) 0px 1px 2px 0px;
+  background-color: #fff;
+  padding: 2rem;
+  margin-bottom: 4px;
+}
+
+.info {
+  padding-bottom: 12px;
+}
+
+.container {
+  padding: 20px;
+  margin: auto;
+}
+
+@media (min-width: 640px) {
+  .d-flex-md {
+      display: flex;
   }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.flex-wrap {
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+
+}
+
+@media (min-width: 1024px) {
+  .container {
+      max-width: 1024px;
+  }
+  
+}
+
+.textbox {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: .25rem;
+  box-shadow: rgb(0 0 0 / 5%) 0px 1px 2px 0px;
+  border: none;
+  width: 65%;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  margin-left: .75rem;
+  margin-right: .75rem;
+}
+
+.image {
+  width: 100%;
+}
+
+.flex-horizontal {
+  flex-direction: row;
+}
+
+.m-2 {
+  margin: .25rem;
+}
+
+.flex-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
