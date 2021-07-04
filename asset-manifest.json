@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nelly-sugu-challenge-2/static/css/main.f6abe497.chunk.css",
+    "main.js": "/nelly-sugu-challenge-2/static/js/main.21819f06.chunk.js",
+    "main.js.map": "/nelly-sugu-challenge-2/static/js/main.21819f06.chunk.js.map",
+    "runtime-main.js": "/nelly-sugu-challenge-2/static/js/runtime-main.f226a48c.js",
+    "runtime-main.js.map": "/nelly-sugu-challenge-2/static/js/runtime-main.f226a48c.js.map",
+    "static/js/2.daf75638.chunk.js": "/nelly-sugu-challenge-2/static/js/2.daf75638.chunk.js",
+    "static/js/2.daf75638.chunk.js.map": "/nelly-sugu-challenge-2/static/js/2.daf75638.chunk.js.map",
+    "static/js/3.59d3c357.chunk.js": "/nelly-sugu-challenge-2/static/js/3.59d3c357.chunk.js",
+    "static/js/3.59d3c357.chunk.js.map": "/nelly-sugu-challenge-2/static/js/3.59d3c357.chunk.js.map",
+    "index.html": "/nelly-sugu-challenge-2/index.html",
+    "static/css/main.f6abe497.chunk.css.map": "/nelly-sugu-challenge-2/static/css/main.f6abe497.chunk.css.map",
+    "static/js/2.daf75638.chunk.js.LICENSE.txt": "/nelly-sugu-challenge-2/static/js/2.daf75638.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f226a48c.js",
+    "static/js/2.daf75638.chunk.js",
+    "static/css/main.f6abe497.chunk.css",
+    "static/js/main.21819f06.chunk.js"
+  ]
+}
